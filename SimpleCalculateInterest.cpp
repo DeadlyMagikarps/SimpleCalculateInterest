@@ -20,7 +20,8 @@ int main()
 
     interestAccumulated = calculateInterest(time);
 
-    cout << "Your accumulated interest will be: " << interestAccumulated << " from a principal balance of: " << principal << " and a rate of: " << rate*1000 << "%" << endl;
+    cout << "Your accumulated interest will be: " << interestAccumulated << " from a principal balance of: " << principal 
+         << " and a rate of: " << rate*1000 << "%" << endl;
 
     return 0;
 }
