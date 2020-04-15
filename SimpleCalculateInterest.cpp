@@ -3,8 +3,8 @@
 using namespace std;
 
 // Declare Global Variables
-const double principal = 1000;
-const double rate = .017; // percent in decimal
+const double principal = 1354.26;
+const double rate = .0179; // percent in decimal
 
 double calculateInterest(double time);
 
@@ -20,7 +20,7 @@ int main()
 
     interestAccumulated = calculateInterest(time);
 
-    cout << "Your simple interest rate is: " << interestAccumulated << endl;
+    cout << "Your accumulated interest will be: " << interestAccumulated << " from a principal balance of: " << principal << " and a rate of: " << rate*1000 << "%" << endl;
 
     return 0;
 }
